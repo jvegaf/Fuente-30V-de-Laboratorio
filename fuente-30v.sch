@@ -322,17 +322,13 @@ Connection ~ 5100 3000
 Wire Wire Line
 	5700 3100 5700 3200
 Wire Wire Line
-	5900 3050 5900 3200
+	5900 3150 5900 3200
 Wire Wire Line
-	5700 3150 6250 3150
+	5700 3150 6300 3150
 Connection ~ 5700 3150
 Wire Wire Line
 	6000 2300 6000 2350
 Connection ~ 5700 2300
-Wire Wire Line
-	6250 3150 6250 2550
-Wire Wire Line
-	6250 2550 6300 2550
 Connection ~ 5900 3150
 Wire Wire Line
 	6600 2300 6600 2350
@@ -447,7 +443,7 @@ Wire Wire Line
 	9350 4450 9350 3450
 Connection ~ 9350 4450
 Wire Wire Line
-	5700 3600 6000 3600
+	6000 3600 5700 3600
 Wire Wire Line
 	6000 3900 6300 3900
 Connection ~ 6000 3900
@@ -468,16 +464,11 @@ Wire Wire Line
 Wire Wire Line
 	2750 5150 3000 5150
 Wire Wire Line
-	6000 2650 6000 3050
+	6000 2650 6000 4150
 Wire Wire Line
-	6000 3050 5900 3050
-Connection ~ 6000 3500
-Wire Wire Line
-	5700 3500 5700 3600
+	5700 3600 5700 3500
 Wire Wire Line
 	6300 3900 6300 4000
-Wire Wire Line
-	6000 3500 6000 4150
 Wire Wire Line
 	6950 4450 9800 4450
 Wire Wire Line
@@ -566,7 +557,7 @@ U 1 1 56394E69
 P 7200 2100
 F 0 "Q1-CONN1" H 7200 2300 50  0000 C CNN
 F 1 "CONN_01X03" V 7300 2100 50  0000 C CNN
-F 2 "w_conn_gmkds:gmkds_3-3-7,62" H 7200 2100 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 7200 2100 60  0000 C CNN
 F 3 "" H 7200 2100 60  0000 C CNN
 	1    7200 2100
 	0    -1   -1   0   
@@ -574,4 +565,6 @@ $EndComp
 Wire Wire Line
 	7200 2300 7200 2850
 Connection ~ 7200 2850
+Wire Wire Line
+	6300 3150 6300 2550
 $EndSCHEMATC
