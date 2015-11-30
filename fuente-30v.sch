@@ -27,7 +27,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:transfo
 LIBS:fuente-30v-cache
 EELAYER 25 0
 EELAYER END
@@ -49,7 +48,7 @@ U 1 1 5620FB8D
 P 5100 3600
 F 0 "C2" H 5110 3670 50  0000 L CNN
 F 1 " " H 5110 3520 50  0000 L CNN
-F 2 "Capacitors_Elko_ThroughHole:Elko_vert_31.5x16mm_RM7.5" H 5100 3600 60  0001 C CNN
+F 2 "w_capacitors:CP_22x25mm" H 5100 3600 60  0001 C CNN
 F 3 "" H 5100 3600 60  0000 C CNN
 	1    5100 3600
 	1    0    0    -1  
