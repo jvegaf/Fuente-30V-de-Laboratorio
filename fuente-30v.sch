@@ -307,8 +307,6 @@ Text GLabel 3000 4750 2    60   Input ~ 0
 F
 Text GLabel 3000 5150 2    60   Input ~ 0
 A
-NoConn ~ 1950 4750
-NoConn ~ 1950 5150
 Wire Wire Line
 	4900 3000 5100 3000
 Wire Wire Line
@@ -549,7 +547,7 @@ $EndComp
 Wire Wire Line
 	2750 2900 2750 2750
 Wire Wire Line
-	2750 3000 2750 3150
+	2750 3000 2750 3600
 $Comp
 L CONN_01X03 Q1-CONN1
 U 1 1 56394E69
@@ -566,4 +564,18 @@ Wire Wire Line
 Connection ~ 7200 2850
 Wire Wire Line
 	6300 3150 6300 2550
+Wire Wire Line
+	1950 4750 1950 3450
+Wire Wire Line
+	1950 3450 2950 3450
+Wire Wire Line
+	2950 3450 2950 2750
+Connection ~ 2950 2750
+Wire Wire Line
+	1950 5150 1800 5150
+Wire Wire Line
+	1800 5150 1800 3600
+Wire Wire Line
+	1800 3600 2750 3600
+Connection ~ 2750 3150
 $EndSCHEMATC
